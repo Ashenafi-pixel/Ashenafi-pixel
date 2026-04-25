@@ -19,9 +19,9 @@
 
 I build the backends that move money and run games.
 
-Currently architecting a **multi-tenant iGaming platform** (stealth) — a Remote Gaming Server with cryptographically verifiable fairness, sub-50ms real-time, and per-operator transaction routing. The goal: surpass SoftSwiss and EveryMatrix on latency, transparency, and developer ergonomics.
+Currently architecting a **multi-tenant iGaming platform** (stealth) a Remote Gaming Server with cryptographically verifiable fairness, sub-50ms real-time, and per-operator transaction routing. The goal: surpass SoftSwiss and EveryMatrix on latency, transparency, and developer ergonomics.
 
-Before that, I led engineering on **[TucanBit](https://tucanbit.io)** — an online crypto casino platform — and shipped production payment infrastructure for **[AddisPay](https://addispay.et/)** and **[LakiPay](https://lakipay.co/)** (Ethiopian payment gateways).
+Before that, I led engineering on **[TucanBit](https://tucanbit.io)** an online crypto casino platform and shipped production payment infrastructure for **[AddisPay](https://addispay.et/)** and **[LakiPay](https://lakipay.co/)** (Ethiopian payment gateways).
 
 ---
 
