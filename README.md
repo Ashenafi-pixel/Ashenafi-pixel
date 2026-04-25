@@ -8,7 +8,8 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashenafi-alemu-%F0%9F%87%AA%F0%9F%87%B9-627b44155/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ashenafi-pixel)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ashenafialemu27@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ashenafialemu66@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/251965822675)
 
 </div>
 
@@ -18,9 +19,9 @@
 
 I build the backends that move money and run games.
 
-Currently architecting a multi-tenant **iGaming platform at [GameCrafter](https://github.com/gamecrafter-io)** — a Remote Gaming Server with cryptographically verifiable fairness, sub-50ms real-time, and per-operator transaction routing. The goal: surpass SoftSwiss and EveryMatrix on latency, transparency, and developer ergonomics.
+Currently architecting a **multi-tenant iGaming platform** (stealth) — a Remote Gaming Server with cryptographically verifiable fairness, sub-50ms real-time, and per-operator transaction routing. The goal: surpass SoftSwiss and EveryMatrix on latency, transparency, and developer ergonomics.
 
-Before that, I shipped production payment infrastructure across **AddisPay** and **LakiPay** (Ethiopian rails) and built multi-currency wallet + KYC + bonus systems for LATAM operators serving 100k+ users.
+Before that, I led engineering on **[TucanBit](https://tucanbit.io)** — an online crypto casino platform — and shipped production payment infrastructure for **[AddisPay](https://addispay.et/)** and **[LakiPay](https://lakipay.co/)** (Ethiopian payment gateways).
 
 ---
 
@@ -29,6 +30,7 @@ Before that, I shipped production payment infrastructure across **AddisPay** and
 <div align="center">
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
@@ -42,7 +44,7 @@ Before that, I shipped production payment infrastructure across **AddisPay** and
 
 | Area | Tools & approaches |
 |------|--------------------|
-| **Languages** | Go (primary), Python, PHP, JavaScript |
+| **Languages** | Go (primary), Java, Python, JavaScript |
 | **Data** | PostgreSQL · ClickHouse · Redis · Supabase |
 | **Streaming** | Kafka · Redis Pub/Sub · Event sourcing · CDC |
 | **Cloud & Infra** | AWS (ECS, S3, RDS, Lambda) · Cloudflare · Docker · Kubernetes |
@@ -55,7 +57,7 @@ Before that, I shipped production payment infrastructure across **AddisPay** and
 
 ## 🚀 Selected work
 
-### 🎰 GameCrafter — Multi-Tenant Remote Gaming Server
+### 🎰 Multi-Tenant Remote Gaming Server *(in development)*
 > Multi-operator RGS in Go: per-operator transaction routing, S3-backed game asset delivery, Kafka-driven event sourcing, provably-fair draw engine. Designed to compete with SoftSwiss/EveryMatrix on latency and verifiable fairness.
 
 **Highlights:**
@@ -63,6 +65,15 @@ Before that, I shipped production payment infrastructure across **AddisPay** and
 - HTTP/3 + WebTransport-first real-time protocol with WebSocket fallback
 - Commit-reveal fairness with daily Merkle anchoring to Bitcoin + Ethereum (industry first)
 - 96-game catalogue, 3 operators in production, deterministic round replay
+
+### 🪙 [TucanBit](https://tucanbit.io) — Online Crypto Casino Platform *(Lead Engineer)*
+> Led backend engineering for an online crypto casino: multi-currency wallet, game catalogue, real-time game sessions, secure transaction handling, integrated payment rails, and player profile + KYC infrastructure.
+
+**Highlights:**
+- Crypto-native deposits + withdrawals across multiple chains
+- Real-time game session management + wallet operations under low-latency constraints
+- Provably-fair game integration + secure RNG handling
+- Multi-tenant architecture for white-label deployments
 
 ### 💳 Integra P2P Payment Webhook
 > Ingests bank P2P payment notifications from Venezuelan rails, idempotently credits the right player wallet, fires Kafka events for downstream analytics + RG monitoring.
@@ -82,11 +93,11 @@ Before that, I shipped production payment infrastructure across **AddisPay** and
 - Daily Merkle root anchored to Bitcoin + Ethereum mainnet
 - Player-side CLI verification tool
 
-### 🏗 Multi-Operator Casino Platform
-> JuegaEnTuCasino + ApuestasX live; Supabase → AWS PostgreSQL migration; multi-currency wallet, KYC hooks, bonus engine groundwork, responsible-gaming controls.
+### 💸 [AddisPay](https://addispay.et/) — Ethiopian Payment Gateway
+> Backend engineering on Ethiopia's payment-gateway infrastructure: card processing, settlement pipelines, merchant onboarding, transaction reconciliation, and signed webhook delivery to merchants.
 
-### 💸 AddisPay & LakiPay (Ethiopian Payment Gateways)
-> Card processing, settlement, reconciliation, and webhook delivery for fintech rails serving local merchants and remittance flows.
+### 💸 [LakiPay](https://lakipay.co/) — Payment Processing Platform
+> Payment-gateway backend: idempotent transaction processing, retry-safe webhook delivery, settlement reconciliation, and integration with local Ethiopian banking rails.
 
 ---
 
@@ -120,13 +131,14 @@ I'm open to:
 
 - 🎰 **iGaming / crypto-casino platform engagements** — RGS architecture, multi-tenant routing, fairness protocols, regulatory compliance
 - 💳 **Payment-gateway integration consulting** — Ethiopian + LATAM rails, reconciliation, webhook reliability
-- 🏗 **Senior Backend Engineer (Go) roles** — payments, gaming, fintech, marketplaces
+- 🏗 **Senior Backend Engineer (Go / Java) roles** — payments, gaming, fintech, marketplaces
 - 🔧 **Technical architecture review** — multi-tenant Go backends, event-driven systems, real-time services
 
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashenafi-alemu-%F0%9F%87%AA%F0%9F%87%B9-627b44155/)
-[![Email](https://img.shields.io/badge/Email_me-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ashenafialemu27@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp_+251_965_822_675-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/251965822675)
+[![Email](https://img.shields.io/badge/Email_me-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ashenafialemu66@gmail.com)
 
 </div>
 
