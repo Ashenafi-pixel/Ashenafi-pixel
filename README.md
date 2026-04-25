@@ -9,7 +9,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashenafi-alemu-%F0%9F%87%AA%F0%9F%87%B9-627b44155/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ashenafi-pixel)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ashenafialemu66@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/251965822675)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/251965822675?text=Hi%20Ashenafi%2C%20I%20saw%20your%20GitHub%20profile%20and%20wanted%20to%20reach%20out%20about%3A)
 
 </div>
 
@@ -19,9 +19,9 @@
 
 I build the backends that move money and run games.
 
-Currently architecting a **multi-tenant iGaming platform** (stealth) a Remote Gaming Server with cryptographically verifiable fairness, sub-50ms real-time, and per-operator transaction routing. The goal: surpass SoftSwiss and EveryMatrix on latency, transparency, and developer ergonomics.
+Currently architecting a **multi-tenant iGaming platform** (stealth) — a Remote Gaming Server with cryptographically verifiable fairness, sub-50ms real-time, and per-operator transaction routing. The goal: surpass SoftSwiss and EveryMatrix on latency, transparency, and developer ergonomics.
 
-Before that, I led engineering on **[TucanBit](https://tucanbit.io)** an online crypto casino platform and shipped production payment infrastructure for **[AddisPay](https://addispay.et/)** and **[LakiPay](https://lakipay.co/)** (Ethiopian payment gateways).
+Before that, I led engineering on **[TucanBit](https://tucanbit.io)** — an online crypto casino platform — and shipped production payment infrastructure for **[AddisPay](https://addispay.et/)** and **[LakiPay](https://lakipay.co/)** (Ethiopian payment gateways).
 
 ---
 
@@ -137,7 +137,7 @@ I'm open to:
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashenafi-alemu-%F0%9F%87%AA%F0%9F%87%B9-627b44155/)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp_+251_965_822_675-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/251965822675)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp_+251_965_822_675-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/251965822675?text=Hi%20Ashenafi%2C%20reaching%20out%20about%20a%20backend%20engineering%20opportunity%20%2F%20consulting%20engagement.)
 [![Email](https://img.shields.io/badge/Email_me-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ashenafialemu66@gmail.com)
 
 </div>
