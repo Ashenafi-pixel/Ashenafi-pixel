@@ -19,9 +19,9 @@
 
 I build the backends that move money and run games.
 
-Currently architecting a **multi-tenant iGaming platform** (stealth) — a Remote Gaming Server with cryptographically verifiable fairness, sub-50ms real-time, and per-operator transaction routing. The goal: surpass SoftSwiss and EveryMatrix on latency, transparency, and developer ergonomics.
+Currently architecting a **multi-tenant iGaming platform** (stealth) a Remote Gaming Server with cryptographically verifiable fairness, sub-50ms real-time, and per-operator transaction routing. The goal: surpass SoftSwiss and EveryMatrix on latency, transparency, and developer ergonomics.
 
-Before that, I led engineering on **[TucanBit](https://tucanbit.io)** — an online crypto casino platform — and shipped production payment infrastructure for **[AddisPay](https://addispay.et/)** and **[LakiPay](https://lakipay.co/)** (Ethiopian payment gateways).
+Before that, I led engineering on **[TucanBit](https://tucanbit.io)** an online crypto casino platform and shipped production payment infrastructure for **[AddisPay](https://addispay.et/)** and **[LakiPay](https://lakipay.co/)** (Ethiopian payment gateways).
 
 ---
 
@@ -116,12 +116,12 @@ Before that, I led engineering on **[TucanBit](https://tucanbit.io)** — an onl
 
 ## 💡 What I'm good at
 
-- **Go backends that hold up under production load** — connection pooling, graceful degradation, observability built-in from day one
-- **Payment integrations done right** — idempotency, reconciliation, retries, signed webhooks; the boring stuff that decides whether money is lost or not
-- **Multi-tenant SaaS architecture** — per-tenant isolation, circuit breakers, rate limits, observability tagging end-to-end
-- **Event-driven systems** — Kafka producers/consumers, event sourcing, deterministic replay, CDC pipelines
-- **Cryptographic protocol design** — commit-reveal, HMAC constructions, public-chain anchoring for verifiability
-- **Production debugging** — reading dashboards, tracing distributed flows, finding the one bad row in 100M
+- **Go backends that hold up under production load** connection pooling, graceful degradation, observability built-in from day one
+- **Payment integrations done right** idempotency, reconciliation, retries, signed webhooks; the boring stuff that decides whether money is lost or not
+- **Multi-tenant SaaS architecture** per-tenant isolation, circuit breakers, rate limits, observability tagging end-to-end
+- **Event-driven systems** Kafka producers/consumers, event sourcing, deterministic replay, CDC pipelines
+- **Cryptographic protocol design** commit-reveal, HMAC constructions, public-chain anchoring for verifiability
+- **Production debugging** reading dashboards, tracing distributed flows, finding the one bad row in 100M
 
 ---
 
@@ -129,10 +129,10 @@ Before that, I led engineering on **[TucanBit](https://tucanbit.io)** — an onl
 
 I'm open to:
 
-- 🎰 **iGaming / crypto-casino platform engagements** — RGS architecture, multi-tenant routing, fairness protocols, regulatory compliance
-- 💳 **Payment-gateway integration consulting** — Ethiopian + LATAM rails, reconciliation, webhook reliability
-- 🏗 **Senior Backend Engineer (Go / Java) roles** — payments, gaming, fintech, marketplaces
-- 🔧 **Technical architecture review** — multi-tenant Go backends, event-driven systems, real-time services
+- 🎰 **iGaming / crypto-casino platform engagements** RGS architecture, multi-tenant routing, fairness protocols, regulatory compliance
+- 💳 **Payment-gateway integration consulting** Ethiopian + LATAM rails, reconciliation, webhook reliability
+- 🏗 **Senior Backend Engineer (Go / Java) roles** payments, gaming, fintech, marketplaces
+- 🔧 **Technical architecture review** multi-tenant Go backends, event-driven systems, real-time services
 
 <div align="center">
 
