@@ -2,143 +2,147 @@
 
 # Ashenafi Alemu
 
-### Senior Backend Engineer · Go · Payments • Crypto • iGaming
+### Senior Software Engineer | Go • TypeScript • Payments • Fintech • iGaming
 
-🇪🇹 Addis Ababa, Ethiopia · Available for senior roles & consulting engagements
+**Backend Engineering · Distributed Systems · Remote Gaming Servers · Payment Infrastructure**
+
+📍 Addis Ababa, Ethiopia · 🌍 Open to international remote roles and consulting
+
+[![GitHub](https://img.shields.io/badge/GitHub-Ashenafi--pixel-181717?style=flat-square&logo=github)](https://github.com/Ashenafi-pixel)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/ashenafi-alemu-627b44155)
 
 </div>
 
 ---
 
-## 🎯 What I do
+## About me
 
-I build the backends that move money and run games.
+I'm a software engineer with **6+ years of experience** building backend services and integrations for **payments, fintech, and online gaming**. My primary language is **Go**, and I also work across **TypeScript, Node.js, React, and Java** when a product needs end-to-end delivery.
 
-Currently architecting a **multi-tenant iGaming platform** (stealth) a Remote Gaming Server with cryptographically verifiable fairness, sub-50ms real-time, and per-operator transaction routing. The goal: surpass SoftSwiss and EveryMatrix on latency, transparency, and developer ergonomics.
+My work spans payment gateways, merchant platforms, crypto payment flows, casino integrations, Remote Gaming Server (RGS) systems, and the operational tools behind them. I focus on transaction correctness, resilient APIs, observability, and maintainable systems that teams can run in production.
 
-Before that, I led engineering on **[TucanBit](https://tucanbit.io)** an online crypto casino platform and shipped production payment infrastructure for **[AddisPay](https://addispay.et/)** and **[LakiPay](https://lakipay.co/)** (Ethiopian payment gateways).
+I've contributed to engineering at **TucanBIT**, **GameCrafter**, **AddisPay**, and **LakiPay**, and I co-founded **Vertex Technologies PLC**, where we're developing fintech and business software products.
+
+## What I work on
+
+- **Payment systems:** wallet and transaction flows, provider integrations, reconciliation, idempotency, retries, and webhooks.
+- **iGaming infrastructure:** RGS services, game-launch APIs, operator integrations, game rounds, session management, and reporting.
+- **Backend platforms:** multi-tenant services, authentication, event-driven processing, API design, and production operations.
+- **Full-stack tooling:** TypeScript/React administration interfaces, internal dashboards, and developer-facing integrations.
 
 ---
 
-## 🛠 Stack
+## Technology stack
 
 <div align="center">
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-149ECA?style=for-the-badge&logo=react&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=clickhouse&logoColor=black)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=for-the-badge&logo=grpc&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 
 </div>
 
-| Area | Tools & approaches |
-|------|--------------------|
-| **Languages** | Go (primary), Java, Python, JavaScript |
-| **Data** | PostgreSQL · ClickHouse · Redis · Supabase |
-| **Streaming** | Kafka · Redis Pub/Sub · Event sourcing · CDC |
-| **Cloud & Infra** | AWS (ECS, S3, RDS, Lambda) · Cloudflare · Docker · Kubernetes |
-| **APIs** | REST · gRPC · WebSocket · WebTransport (HTTP/3) |
-| **Observability** | Prometheus · Grafana · OpenTelemetry · Loki |
-| **Cryptography** | SHA-256 commit-reveal · HMAC draws · On-chain anchoring · NIST SP 800-90A DRBG |
-| **Patterns** | Multi-tenant isolation · Actor-per-room · Circuit breakers · Idempotency · CQRS |
+| Area | Tools and experience |
+| --- | --- |
+| **Languages** | Go (primary), TypeScript, JavaScript, Java, Python, SQL |
+| **Backend and frontend** | Gin, Echo, Node.js, React, REST APIs, WebSockets |
+| **Databases and caching** | PostgreSQL, MySQL/MariaDB, Redis, ClickHouse |
+| **Messaging** | Apache Kafka, asynchronous processing, event-driven workflows |
+| **Infrastructure** | Docker, AWS, Nginx, CI/CD, Linux |
+| **Security and reliability** | JWT, authentication and authorization, idempotency, audit trails, transaction integrity |
+| **Engineering practices** | API contracts, integration testing, observability, debugging, code review |
 
 ---
 
-## 🚀 Selected work
+## Selected experience
 
-### 🎰 Multi-Tenant Remote Gaming Server *(in development)*
-> Multi-operator RGS in Go: per-operator transaction routing, S3-backed game asset delivery, Kafka-driven event sourcing, provably-fair draw engine. Designed to compete with SoftSwiss/EveryMatrix on latency and verifiable fairness.
+### 🎮 GameCrafter — iGaming Studio & Remote Gaming Server
 
-**Highlights:**
-- Per-operator request routing with circuit breakers + per-tenant observability
-- HTTP/3 + WebTransport-first real-time protocol with WebSocket fallback
-- Commit-reveal fairness with daily Merkle anchoring to Bitcoin + Ethereum (industry first)
-- 96-game catalogue, 3 operators in production, deterministic round replay
+Worked on the backend engineering and delivery of an RGS ecosystem supporting casino games and operator integrations.
 
-### 🪙 [TucanBit](https://tucanbit.io) — Online Crypto Casino Platform *(Lead Engineer)*
-> Led backend engineering for an online crypto casino: multi-currency wallet, game catalogue, real-time game sessions, secure transaction handling, integrated payment rails, and player profile + KYC infrastructure.
+- Developed and integrated game-launch, session, and wallet-related services.
+- Worked on game-round processing, reporting, deterministic replay, and RTP investigation/validation workflows.
+- Supported operator-facing integrations and production troubleshooting.
+- Collaborated with frontend, QA, and infrastructure engineers to ship and test game releases.
 
-**Highlights:**
-- Crypto-native deposits + withdrawals across multiple chains
-- Real-time game session management + wallet operations under low-latency constraints
-- Provably-fair game integration + secure RNG handling
-- Multi-tenant architecture for white-label deployments
+**Focus:** Go · PostgreSQL · Redis · Kafka · RGS architecture · Operator integrations
 
-### 💳 Integra P2P Payment Webhook
-> Ingests bank P2P payment notifications from Venezuelan rails, idempotently credits the right player wallet, fires Kafka events for downstream analytics + RG monitoring.
+### 🎰 [TucanBIT](https://tucanbit.io) — Crypto Casino Platform
 
-**Highlights:**
-- Idempotency by `referencia` (X-Trace-ID changes per retry per spec)
-- 5-strategy user resolution from free-text `concepto` field
-- Atomic balance update + audit log + Kafka publish in single transaction
-- Kafka-based fan-out to fraud detection + CRM + regulator streaming
+**Backend Lead** — Helped build and operate the backend of an online crypto casino.
 
-### 🎮 Raffle Multiplayer (Cryptographically Verifiable)
-> Multi-player raffle game where any player can mathematically verify the round was fair. Combines commit-reveal with HMAC over all submitted tickets so the server can't pick the seed after seeing tickets.
+- Worked on wallet and transaction services, game sessions, and provider integrations.
+- Built and maintained APIs for player-facing and operational workflows.
+- Investigated production issues involving authentication, session consistency, and financial reporting.
+- Supported service reliability across development, staging, and production environments.
 
-**Highlights:**
-- Per-round `SHA-256(seed ‖ round_id)` commitment
-- `HMAC-SHA256(seed, canonical_tickets)` deterministic draw
-- Daily Merkle root anchored to Bitcoin + Ethereum mainnet
-- Player-side CLI verification tool
+**Focus:** Go · PostgreSQL · Redis · Kafka · ClickHouse · Docker
 
-### 💸 [AddisPay](https://addispay.et/) — Ethiopian Payment Gateway
-> Backend engineering on Ethiopia's payment-gateway infrastructure: card processing, settlement pipelines, merchant onboarding, transaction reconciliation, and signed webhook delivery to merchants.
+### 💳 [AddisPay](https://addispay.et/) & [LakiPay](https://lakipay.co/) — Payment Infrastructure
 
-### 💸 [LakiPay](https://lakipay.co/) — Payment Processing Platform
-> Payment-gateway backend: idempotent transaction processing, retry-safe webhook delivery, settlement reconciliation, and integration with local Ethiopian banking rails.
+Contributed to payment-gateway engineering and integrations with financial-service providers.
+
+- Implemented and supported payment initiation, callbacks, and merchant-facing APIs.
+- Worked with local payment rails and third-party provider protocols.
+- Focused on reliable transaction handling, reconciliation, and retry-safe integrations.
+
+**Focus:** Payment APIs · Provider integrations · Transaction processing · SQL
+
+### 🏢 Vertex Technologies PLC — Co-founder & Engineering
+
+Building software products for merchants and businesses, including:
+
+- **[LedgerlyPay](https://ledgerlypay.com/):** Non-custodial crypto payment tooling, including merchant checkout, invoices, payment APIs, and device-based transaction authorization.
+- **[TIMES](https://times.et/):** Business management and electronic invoicing software, with sales, inventory, and merchant workflows.
+- **SocialPay:** Merchant payment and integration infrastructure.
+
+These are **company products**, not standalone open-source projects. Product features and commercial availability vary.
 
 ---
 
-## 📊 GitHub Activity
+## Engineering interests
+
+I particularly enjoy problems where **correctness matters as much as performance**:
+
+- Designing idempotent payment and wallet operations.
+- Tracing failures across services and external providers.
+- Building reliable operator and merchant integrations.
+- Making complex backend systems observable and easier to maintain.
+- Designing practical backoffice tools for support and operations teams.
+- Exploring cryptographically verifiable game mechanics and deterministic replay.
+
+---
+
+## GitHub activity
 
 <div align="center">
 
-![Stats](https://github-readme-stats.vercel.app/api?username=Ashenafi-pixel&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ashenafi-pixel&show_icons=true&theme=tokyonight&hide_border=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ashenafi-pixel&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Ashenafi-pixel&theme=tokyonight&hide_border=true)
-
 </div>
 
----
-
-## 💡 What I'm good at
-
-- **Go backends that hold up under production load** connection pooling, graceful degradation, observability built-in from day one
-- **Payment integrations done right** idempotency, reconciliation, retries, signed webhooks; the boring stuff that decides whether money is lost or not
-- **Multi-tenant SaaS architecture** per-tenant isolation, circuit breakers, rate limits, observability tagging end-to-end
-- **Event-driven systems** Kafka producers/consumers, event sourcing, deterministic replay, CDC pipelines
-- **Cryptographic protocol design** commit-reveal, HMAC constructions, public-chain anchoring for verifiability
-- **Production debugging** reading dashboards, tracing distributed flows, finding the one bad row in 100M
+> Note: Most of my commercial engineering work lives in private repositories, so public GitHub activity represents only part of my experience.
 
 ---
 
-## 📬 Let's talk
+## Let's connect
 
-I'm open to:
+I'm open to **Senior Backend Engineer**, **Senior Software Engineer**, and **backend-focused full-stack** roles, as well as selected consulting engagements in **payments, fintech, and iGaming**.
 
-- 🎰 **iGaming / crypto-casino platform engagements** RGS architecture, multi-tenant routing, fairness protocols, regulatory compliance
-- 💳 **Payment-gateway integration consulting** Ethiopian + LATAM rails, reconciliation, webhook reliability
-- 🏗 **Senior Backend Engineer (Go / Java) roles** payments, gaming, fintech, marketplaces
-- 🔧 **Technical architecture review** multi-tenant Go backends, event-driven systems, real-time services
+If you're building payment infrastructure, an RGS, or a backend platform with complex integrations, I'd be happy to talk.
+
+**[Connect on LinkedIn](https://www.linkedin.com/in/ashenafi-alemu-627b44155)** · **[Explore my repositories](https://github.com/Ashenafi-pixel)**
 
 <div align="center">
 
-</div>
-
----
-
-<div align="center">
-
-*"The boring infrastructure underneath is where I do my best work."*
-
-⭐ If something here is useful to you, a star on a relevant repo means a lot.
+*Reliable systems are built through careful engineering, not just fast code.*
 
 </div>
